@@ -47,7 +47,7 @@ func createConfigsModelFromEnvs() ConfigsModel {
 		KeystoreAlias:      os.Getenv("keystore_alias"),
 		PrivateKeyPassword: os.Getenv("private_key_password"),
 		JarsignerOptions:   os.Getenv("jarsigner_options"),
-		OutputName:         os.Getenv("output_name")
+		OutputName:         os.Getenv("output_name"),
 	}
 }
 
