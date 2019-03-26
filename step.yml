@@ -90,7 +90,6 @@ inputs:
       description: |
         If is empty then the output name is "app-release-bitrise-signed".
         Else it's the specified name. Do not add extensione here.
-      is_sensitive: true
 outputs:
   - BITRISE_SIGNED_APK_PATH:
     opts:
