@@ -87,6 +87,7 @@ inputs:
     opts:
       title: 'Artifact name'
       summary: 'Name of the produced output artifact'
+      is_sensitive: false
       description: |
         If is empty then the output name is "app-release-bitrise-signed".
         Else it's the specified name. Do not add extensione here.
